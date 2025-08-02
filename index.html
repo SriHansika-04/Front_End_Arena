@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fun with Randomness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎉 Fun with Randomness</h1>
+  <h1>CLICK & CHILL</h1>
+
+  <!-- Quote Generator -->
+  <div class="tool">
+    <h2>Inspirational Quote</h2>
+    <p id="quote">Click below to get inspired!</p>
+    <button onclick="generateQuote()">New Quote</button>
+    <button onclick="copyQuote()">Copy Quote</button>
+  </div>
+
+
+  <!-- Password Generator -->
+  <div class="tool">
+  <h2>Password Generator</h2>
+  <input type="text" id="password" readonly>
+  <br>
+  <button onclick="generatePassword()">Generate</button>
+  <button onclick="copyPassword()">Copy Password</button>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
